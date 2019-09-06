@@ -1,6 +1,10 @@
 pipeline{
   agent any
      stages{
-     standardPipeline.build_code_openjdk11_maven360(currency-exchanger);
-    }
+       stage('Build'){
+       step{
+          standardPipeline.build_code_openjdk11_maven360(currency-exchanger);
+        }
+       }
+     }
   }
