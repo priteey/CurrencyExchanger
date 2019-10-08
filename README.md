@@ -1,2 +1,2 @@
 # CurrencyExchanger
-Consuming currency-exchanger API
+Consuming currency-exchanger API using REST
