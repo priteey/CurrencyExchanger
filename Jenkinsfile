@@ -3,7 +3,7 @@ pipeline{
      stages{
        stage('Build'){
        steps{
-          standardPipeline.build_code_openjdk11_maven360(currency-exchanger);
+          echo 'hi';
         }
        }
      }
