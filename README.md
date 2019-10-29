@@ -1,3 +1,3 @@
 # CurrencyExchanger
 
-Consuming currency-exchanger API using REST Pritee
+Consuming currency-exchanger API using REST
